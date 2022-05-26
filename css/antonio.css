@@ -1,0 +1,500 @@
+.cardp > img {
+    height: 200px;
+}
+
+.cardp {
+    position: relative;
+    margin: 20px 0 0 0;
+}
+
+.cardp:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.cardp:hover > img {
+    filter: blur(1px);
+}
+
+.cardp:hover > span {
+    display: unset;
+}
+
+.cardi > a {
+    text-decoration: none;
+}
+
+.carda {
+    color: black;
+}
+
+.carda:hover {
+    color: black;
+}
+
+.cardp > span {
+    z-index: 10;
+    position: absolute;
+    display: none;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding: 7px 17px;
+    background-color: rgba(231, 231, 231, 0.6);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.bv-txt {
+    line-height: 44px;
+    margin: 0 30px;
+}
+
+.yt-video {
+    width:100%;
+}
+
+.nav-link {
+    margin: 0px 5px;
+}
+
+.wrapper {
+    background: url(../images/background.jpg);
+}
+
+.container.object {
+    border: 2px black solid;
+    padding: 20px 40px;
+    margin: 40px auto;
+}
+
+.object {
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.object.alert {
+    z-index: 7;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 40px auto 0 auto;
+    border: black 3px solid;
+    display: inline-block;
+    font-weight: bold;
+    color: #CD853F;
+}
+
+.object.alert.erro {
+    animation: erro 2s infinite;
+}
+
+.object.alert.succ {
+    animation: succ 2s infinite;
+}
+
+.row.perfil {
+    margin: 20px 0;
+}
+
+@keyframes erro {
+	0%, 48% {
+        border: black 3px solid;
+        color: #CD853F;
+    }
+    
+    48%, 98% {
+        border: red 3px solid;
+        color: red;
+    }
+
+    98%, 100% {
+        border: black 3px solid;
+        color: #CD853F;
+    }
+}
+
+@keyframes succ {
+	0%, 48% {
+        border: black 3px solid;
+        color: #CD853F;
+    }
+    
+    48%, 98% {
+        border: rgb(21, 255, 0) 3px solid;
+        color: rgb(0, 173, 58);
+    }
+
+    98%, 100% {
+        border: black 3px solid;
+        color: #CD853F;
+    }
+}
+
+
+
+.object .erro {
+    display: inline-block;
+    font-size: 27px;
+    margin: 0;
+}
+
+@media (max-width:61.99em) {
+    .nav-link {
+        margin: 5px 5px;
+    }
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+.plano {
+    display: none;
+}
+
+.planol:hover {
+    cursor: pointer;
+}
+
+.planol {
+    border: black 2px solid;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.planol.pc {
+    min-height: 280px;
+}
+
+.plano:checked ~ .planol {
+    border: red 2px solid;
+    background-color: rgb(233, 233, 233);
+}
+
+/*a btn btn-outline-light nav-link text-light*/
+
+.show {
+    background-color: #F4A460;
+}
+
+
+.btn-outline-light:hover {
+    background-color: rgba(247, 230, 0, 0.959)!important;
+    color: rgb(8, 8, 8)!important;
+}
+.btn-outline-light:focus {
+    background-color: rgba(255, 153, 0, 0.356)!important;
+    color: white!important;
+}
+
+.btn-outline-light:active {
+    background-color: rgba(250, 0, 0, 0.349)!important;
+    color: white!important;
+}
+
+.btn-outline-light:not(:focus) {
+    background-color: rgba(0, 0, 0, 0)!important;
+    color: white!important;
+}
+
+/* ============ scroll bar ============ */  
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: #c9beb3;
+}
+  
+::-webkit-scrollbar-thumb {
+    background:  #F4A460;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #CD853F;
+}
+/* ===================================== */  
+
+
+
+
+
+
+.notify {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.295);
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+}
+
+
+.notify-form {
+    z-index: 30;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 180px;
+    width: 320px;
+    background-color: rgba(252, 252, 252, 0.795);
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.cancelex, .confirmex {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.cancelex:hover {
+    border: 2px solid rgb(101, 255, 96);
+}
+
+.confirmex:hover {
+ 
+    border: 2px solid rgb(255, 16, 16);
+}
+
+.cancelex {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+
+.canceleok {
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 7px 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.canceleok:hover {
+    border: 2px solid rgb(15, 184, 99);
+}
+
+.confirmex {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+
+.confirmp {
+    font-size: 18px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: calc(100vw - var(--scrollbar-width));
+    background-color: rgba(128, 128, 128, 0.664);
+    z-index: 99;
+    display: none;
+}
+
+.i1:checked ~ .overlay2, .i2:checked ~ .overlay2, .i3:checked ~ .overlay2 {
+    display: unset;
+    position: fixed;
+}
+
+.imgc {
+    margin: 0 5px;
+    padding: 0;
+    border: black 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.img1 > img, .img2 > img, .img3 > img {
+    border-radius: 3px;
+}
+
+.i1:checked ~ .imgc .centimagem, .i2:checked ~ .imgc .centimagem, .i3:checked ~ .imgc .centimagem {
+    border-radius: 20px;
+}
+
+.i1:checked ~ .img1 {
+    position: fixed;
+    border: black 10px solid;
+    border-radius: 20px;
+    transform: translate(-50%, -50%) scale(0.66, 0.6);
+    z-index: 100;
+    top: 50%;
+    left: 49.7%;
+}
+
+.i2:checked ~ .img2 {
+    position: fixed;
+    border: black 10px solid;
+    border-radius: 20px;
+    transform: translate(-50%, -50%) scale(0.66, 0.6);
+    z-index: 100;
+    top: 50%;
+    left: 49.7%;
+}
+
+.i3:checked ~ .img3 {
+    position: fixed;
+    border: black 10px solid;
+    border-radius: 20px;
+    transform: translate(-50%, -50%) scale(0.66, 0.6);
+    z-index: 100;
+    top: 50%;
+    left: 49.7%;
+}
+
+.i1:checked ~ .img1:after, .i2:checked ~ .img2:after, .i3:checked ~ .img3:after {
+    transform: rotate(-45deg);
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 110px;
+    background-color: black;
+    z-index: 101;
+    top: -10px;
+    right: -50px;
+    border-radius: 10px;
+    animation: xis 2s infinite;
+}
+
+.i1:checked ~ .img1:before, .i2:checked ~ .img2:before, .i3:checked ~ .img3:before {
+    transform: rotate(45deg);
+    content: '';
+    position: absolute;
+    z-index: 101;
+    height: 25px;
+    width: 110px;
+    background-color: black;
+    top: -10px;
+    right: -50px;
+    border-radius: 10px;
+    animation: xis 2s infinite;
+}
+
+
+@keyframes xis {
+	0%, 48% {
+        background-color: crimson;
+    }
+    
+    48%, 98% {
+        background-color: black;
+    }
+
+    98%, 100% {
+        background-color: crimson;
+    }
+}
+
+.input-img {
+    display: none;
+}
+
+.ticket {
+    text-align: center;
+}
+
+.ticket-info {
+    position: relative;
+    border-radius: 20px;
+    border: black 2px dashed;
+    padding: 20px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background: url('../images/fundo-ticket.png');
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.campo {
+    border: black solid 2px;
+    padding: 0;
+}
+
+.config-tik .camp {
+    margin: 3px;
+    border-radius: 5px;
+}
+.tik-info {
+    font-size: 21px;
+    margin: 10px 0 0 10px;
+}
+.total {
+    margin: 10px 0 0 10px;
+    font-size: 21px;
+}
+
+.config-tik {
+    background-color: rgba(128, 128, 128, 0.288);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+}
+
+.code {
+    position: absolute;
+    right: 30px;
+}
+
+@media (max-width:35em) {
+    .ttitle {
+        position: absolute;
+        left: 30px;
+        top: 10px;
+    }
+    .code {
+        position: absolute;
+        right: 30px;
+        top: 10px;
+    }
+}
+
+.object2 {
+    position: relative;
+    height: 100%;
+    width: 507px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.object2.ticket-info  {
+    display: inline-block;
+}

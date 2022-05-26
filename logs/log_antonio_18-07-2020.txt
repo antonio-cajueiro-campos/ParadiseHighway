@@ -1,0 +1,58 @@
+================ 14:00 ==================
+
+ALTERADO layout_php/configuracoes.php*
+
+$nome = "Site";
+
+==PARA==
+
+$nome = "Paradise Highway";
+
+------------------------------------------
+
+ALTERADO css/global.css*
+
+.footer2 {
+  position: relative;
+}
+
+==PARA==
+
+.footer2 {
+  position: absolute;
+}
+
+---------------------
+
+ADD TO css/global.css*
+
+.navbar {
+	background: linear-gradient(to right, #CD853F, #F4A460);
+}
+
+RENAMED 
+
+footer2 to footer
+
+hr2 to foohr
+
+CREATE
+
+foop
+
+------------------------------------------
+
+
+ADD TO layout_php/header.php*
+
+classe text-light TO
+
+a (
+Login, Descubra, California, Jalapao, Islandia, Comprar, Sobre
+)
+
+
+=========================================
+
+
+IMPLEMENTADO SISTEMA DE LOGIN E CADASTRO COM SUCESSO!!!!!!

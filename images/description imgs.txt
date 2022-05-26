@@ -1,0 +1,11 @@
+"Cañón_Silfra",_Parque_Nacional_de_Þingvellir,(Suðurland/Islandia)
+"Gullfoss",_Cachoeira_Gulfoss,(Suðurland,_Islandia)
+"Strokkur_geyser"(Suðurland,_Islandia)
+"Pacific_Coast_Highway"(Califórnia_USA)
+"Yosemite_Park"(California_USA)
+"Napa_Valley"(California_USA)
+
+https://www.youtube.com/watch?v=5ASTUR25XwE&list=PL7biWkm0dNqZIEy9EQW_AANk0xk0Z805e&index=4 ("Gullfoss") t= 2:55;
+https://www.youtube.com/watch?v=-nmO_rRl8ss ("Pacific_Coast_Highway");
+https://www.youtube.com/watch?v=ZK2fjrM_HTc ("Parque ncional do jalapão")
+#cd853f

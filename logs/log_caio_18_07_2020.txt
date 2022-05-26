@@ -1,0 +1,14 @@
+===== 19:50 =====
+Conteúdo adicionado em login.php:
+Na linha 71.
+Conteúdo adicionado em jalapao.php:
+Das linhas 3 até 60.
+Contéudo adicionado em islandia.php:
+Das linhas 4 até 61.
+Conteúdo adicionado em california.php:
+Das linhas 4 até 61.
+Adicionada(s) nove imagens no diretório images.
+Conteúdo adicionado em caio.css:
+Das linhas 1 até 35.
+Conteúdo adicionado em footer.php:
+Das linhas 17 até 29. (VLibras).

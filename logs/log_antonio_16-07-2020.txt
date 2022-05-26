@@ -1,0 +1,33 @@
+================ 18:00 ==================
+
+CRIAÇÃO DE PÁGINAS NO FORMATO PHP:
+	california.php
+	comprar.php
+	grecia.php
+	index.php
+	islandia.php
+	sobre.php
+
+================ 18:17 ==================
+
+CRIAÇÃO DE PÁGINAS NO FORMATO PHP:
+	layout_php/configuracoes.php
+	layout_php/header.php
+	layout_php/footer.php
+
+ADD TO PAGE layout_php/configuracoes.php*
+	script PHP de auto-configuração de titulo
+
+ADD TO PAGE layout_php/header.php*
+	navbar template bootstrap
+	metatags
+
+ADD TO PAGE layout_php/footer.php*
+	scripts bootstrap
+
+================ 19:50 ==================
+
+ADD TO PAGE index.php*
+	banner bootstrap
+
+=========================================

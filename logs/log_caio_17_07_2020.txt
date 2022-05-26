@@ -1,0 +1,42 @@
+===== 15:05 =====
+Modificações no arquivo global.css:
+Linha 36: h1 passou a ser uma classe chamada .h12
+Linha 41: h2 passou a ser uma classe chamada .h23
+Linha 45: p passou a ser uma classe chamada .pw
+Linha 53: span passou a ser uma classe chamada .span2
+Linha 57: a passou a ser uma classe chamada .a2
+Linha 64: button passou a ser uma classe chamada .button2
+Conteúdo criado nas linhas 77 até 88:
+Conteúdo criado nas linhas 103 até 105:
+Conteúdo criado nas linhas 107 até 109:
+Conteúdo criado nas linhas 111 até 114:
+Linha 116: form passou a ser uma classe chamada .form2
+Linha 127: input passou a ser uma classe chamada .input2
+Linha 135: container passou a ser uma classe chamada .container2
+Linha 147: .form-container passou a ser chamado de .form2-container
+Linha 160: .container.right-panel-active .sign-in-container passou a ser chamado de .container2.right-panel-active .sign-in-container
+Linha 171: .container.right-panel-active .sign-up-container passou a ser chamado de .container2.right-panel-active .sign-up-container 
+Linha 201: .container.right-panel-active .overlay-container passou a ser chamado de .container2.right-panel-active .overlay-container
+Linha 221: .container.right-panel-active .overlay passou a ser chamado de .container2.right-panel-active .overlay
+Linha 224: .container.right-panel-active .overlay-left passou a ser chamado de .container2.right-panel-active .overlay-left
+Linha 253: .container.right-panel-active .overlay-right passou a ser chamado de .container2.right-panel-active .overlay-right
+
+===== 15:37 =====
+Modificações no arquivo login.php:
+Linha 5: class e id contendo "container" agora contém "container2".
+Linha 6: class agora contém "form2-container sign-up-container".
+Linha 8 e 23: class agora contém "form2".
+Linha 9 e 24: class agora contém "h12".
+Linhas 11 até 13, 26 até 28, 33: class agora contém "a2".
+Linha 15: class agora contém "span2".
+Linhas 16 até 18, 31 e 32: class agora contém "input2".
+Linha 19 e 35: class agora contém "button2".
+Linha 22: class agora contém "form2-container sign-in-container".
+Linhas 42 e 47: class agora contém "p2".
+
+===== 20:01 =====
+Conteúdo criado nas linhas 3 até 56 em sobre.php
+Conteúdo criado nas linhas 1 até 31 em f.css
+Conteúdo criado nas linhas 1 até 11, 15, 19 até 29 em footer.php
+Conteúdo criado nas linhas 272 até 291 em global.css
+Mudança no texto na linha 50 em header.php

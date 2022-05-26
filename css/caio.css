@@ -1,0 +1,143 @@
+@font-face {
+    font-family: ShadowsIntoLight;
+    src: url('../fonts/PermanentMarker-Regular.ttf');
+}
+.centimagem {
+    width: 100%;
+    height: 100%;
+}
+
+.lugh1.tt {
+    text-transform: capitalize;
+    margin: 0 0 10px 0;
+    /*font-family: ShadowsIntoLight;*/
+    font-weight: bolder;
+}
+
+.lugh1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0 10px 0;
+    text-transform: uppercase;
+}
+
+.lugh2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0 0 0;
+    text-transform: uppercase;
+}
+
+.row-title {
+    background-color: #bfbfbf9a;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 20px;
+    margin: 20px 0px;
+}
+
+.col555-title {
+    background-color: #bfbfbf9a;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 20px;
+    margin: 20px 0px;
+}
+
+.lughr {
+    margin: 30px auto;
+    margin-bottom: 10px;
+    width: 70%;
+    border: none;
+    height: 3px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.yt-row {
+    margin: 0;
+}
+
+.saib {
+    margin: 15px 0 15px 0;
+}
+
+.lugp.pp {
+    margin: 0 0 0 0;
+}
+
+.lugp {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 15px;
+    text-align: justify;
+}
+
+.lugp.mp {
+    font-size: 20px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 15px;
+    text-align: justify;
+}
+
+
+.buttonlug {
+	border: 1px solid #CD853F;
+	background-color: #CD853F;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    margin-bottom: 10px;
+}
+
+.verde {
+    background-color: #44cd3f;
+    display: inline-block;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.verde:hover {
+    cursor: pointer;
+}
+
+.buttonlug2 {
+	border: 1px solid #CD853F;
+	background-color: #CD853F;
+	color: #FFFFFF;
+	font-size: 12px;
+    font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+.semazul{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.semazul:visited{
+    text-decoration: none;
+}
+
+.semazul:hover{
+    text-decoration: none;
+}
+
+.semazul:focus{
+    text-decoration: none;
+}
+
+.semazul:hover, .semazul:active{
+    text-decoration: none;
+}

@@ -1,0 +1,18 @@
+===== 21:12 =====
+Criação da página - login.php
+Criado login.css
+===== 21:34 =====
+Adicionado conteúdo dentro de login.css, totalizando 226 linhas.
+===== 21:57 =====
+Adicionado conteúdo dentro de login.php, totalizando 70 linhas.
+===== 21:58 =====
+Adicionado conteúdo dentro de logar.php, totalizando 39 linhas.
+Adicionado conteúdo dentro de cadastrar.php, totalizando 40 linhas.
+===== 23:14 =====
+Modificações no arquivo global.css:
+Linha 25: body passou a ser uma classe chamada .corpo
+Linhas 66 e 67: Cor trocada para #CD853F.
+Linha 180: Cor trocada para #F4A460.
+Linhas 181 e 182: Cores trocadas para #CD853F e #F4A460.
+Exclusões dos arquivos logar.php e cadastrar.php
+

@@ -1,0 +1,283 @@
+Dia 17/07/2020
+16:30
+
+Editei o arquivo sobre.php
+<?php include 'layout_php/header.php'?>
+<!-- ========== Conteúdo aqui ========== -->
+<link rel="stylesheet" href="f.css">
+
+<div class="container" >
+<h1 class="sobreh1"> Sobre nós </h1>
+</div>
+<br>
+<hr>
+<br>
+<div class="container sobrep" >
+<p> Seja bem vindo </p>
+<p> Já pensou em fazer uma viagem que jamais esqueceria, o objetivo da 01Walk é propocionar a viajem dos seus sonhos para os lugares mais inesquecíveis do mundo. </p>
+<p> Oferecemos a qualidade máxima para nossos clientes, conforto inigualavel e vistas inesquecíveis. </p>
+<p> Entre nossos pacotes visamos como prioridade a satisfação de nosso cliente.<p> 
+<p> Há 20 anos trabalhando para realizar seu sonho da melhor viagem da sua vida </p>
+</div>
+
+
+<!-- ========== Conteúdo termina aqui ========== -->
+<?php include 'layout_php/footer.php'?>
+
+Perfeito funcionamento
+
+Criei e Editei o arquivo f.css
+.sobreh1
+{
+text-align: center;
+font-size: 50px;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 30px;
+}
+
+.sobrep
+{
+text-align: left;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 10px;
+}
+
+Perfeito funcionamento
+
+
+20 de julho 
+adicinei os planos as paginas:
+california
+inslandia
+jalapao 
+
+<?php include 'layout_php/header.php'?>
+<!-- ========== Conteúdo aqui ========== -->
+
+<div class="container object">
+    <h1 class="lugh1">Califórnia</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col"><img class="centimagem" src="images/California1.jpg"></div>
+            <div class="col"><img class="centimagem" src="images/California2.jpg"></div>
+            <div class="col"><img class="centimagem" src="images/California3.jpg"></div>
+        </div>
+    </div>
+    <hr class="lughr">
+    <div class="row">
+    <div class="col"><h2 class="lugh2">Sobre:<h2><br>
+        <p class="lugp">Do celebrado litoral até ao amplo interior e picos de granito das Sierra Mountains (cordilheira da Sierra),
+        a Califórnia oferece uma vida inteira de férias em um único lugar: o Estado Dourado.
+        Praias ensolaradas e surfistas nas ondas, cidades deslumbrantes repletas de cultura e diversão, parques de cair o queixo e vistas dignas de qualquer lista de desejos: a Califórnia tem qualidade incomparável.
+        </p>
+        <button class="buttonlug2">Saiba mais</button>
+    </div>
+    <div class="col">
+        <div class="row">
+            <div class="col">
+                <h2 class="lugh2">Vídeo:</h2>    
+                <embed src="https://www.youtube.com/watch?v=EFsD7KYptZA&t=81s" allowfullscreen="true" width="525" height="300">
+                <p class="lugp">Conheça um pouco mais sobre a Califórnia.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <h2 class="lugh1">Planos:</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Plano para dois económico: Ideal para viajem em dupla.</h5> 
+                    <p> Rodeway Inn & Suites Pacific Coast Highway.</p>
+                    <p> Localização: 1665 Pacific Coast Highway, Harbor City, CA 90710, Estados Unidos.                  
+                     </p>
+                    <p class="card-text">R$ 670,00</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Plano para família: Perfeito para uma viagem tranquila e confortavel. </h5>
+                    <p> Entire Guesthouse - CLOSE TO BEACH. </p>
+                    <p>    Localização:Torrance, 7.6 km até Rodeway Inn & Suites Pacific Coast Highway
+                    </p>
+                    <p class="card-text">R$ 871,00</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Plano viagem com os amigos: Principal plano para quem quer cutir com os amigos.</h5>
+                    <p> Miyako Hybrid Hotel </p>
+                    <p>Torrance, 5.0 km até Rodeway Inn & Suites Pacific Coast Highway
+                    </p>
+                    <p class="card-text">R$ 1,174</p>
+            </div>
+        </div>
+    </div>
+
+    <button class="buttonlug">Continuar</button>  
+</div>
+
+
+<!-- ========== Conteúdo termina aqui ========== -->
+<?php include 'layout_php/footer.php'?>
+
+
+
+
+
+
+<?php include 'layout_php/header.php'?>
+<!-- ========== Conteúdo aqui ========== -->
+
+<div class="container object">
+<h1 class="lugh1">Islândia</h1>
+<div class="container">
+   <div class="row">
+      <div class="col"><img class="centimagem" src="images/Islandia1.jpeg"></div>
+      <div class="col"><img class="centimagem" src="images/Islandia2.jpg"></div>
+      <div class="col"><img class="centimagem" src="images/Islandia3.jpg"></div>
+   </div>
+</div>
+<hr class="lughr">
+<div class="row">
+    <div class="col"><h2 class="lugh2">Sobre:<h2><br>
+        <p class="lugp">Desde sua localização na Europa, até os inúmeros atrativos que podem ser curtidos e apreciados no inverno europeu ou no verão,
+            a Islândia tem cidades que vão te surpreender pela cultura e pela beleza!
+            Esse paraíso de aventuras fica na Europa, no Atlântico Norte, e é o menor do mundo! Localizada entre Groenlândia e Noruega, a Islândia é a segunda maior ilha do continente europeu e é muito preservada.
+        </p>
+    </div>
+    <div class="col">
+        <div class="row">
+            <div class="col">
+                <h2 class="lugh2">Vídeo:</h2>    
+                <embed src="https://www.youtube.com/watch?v=EFsD7KYptZA&t=81s" allowfullscreen="true" width="525" height="300">
+                <p class="lugp">Conheça um pouco mais sobre a Islândia.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <h2 class="lugh1">Planos:</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Plano menor preço</h5>
+                    <p> T10 Iceland </p>
+                    <p> Localização: Hafnarfjörður
+                     </p>
+                    <p class="card-text">R$ 470,00</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Plano melhor avaliação:</h5>
+                    <p> Apt. Hotel Hjalteyri</p>
+                    <p>Localização: Akureyri
+                     </p>
+                    <p class="card-text">R$ 833,00</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Plano 4 pessoas</h5>
+                    <p> Live As Locals </p>
+                    <p> Localização: Reiquiavique
+                     </p>
+                    <p class="card-text">R$ 934,00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="buttonlug">Continuar</button>  
+</div>
+<!-- ========== Conteúdo termina aqui ========== -->
+<?php include 'layout_php/footer.php'?>
+
+
+
+
+
+
+
+
+<?php include 'layout_php/header.php'?>
+<!-- ========== Conteúdo aqui ========== -->
+<div class="container object">
+<h1 class="lugh1">Jalapão</h1>
+<div class="container">
+   <div class="row">
+      <div class="col"><img class="centimagem" src="images/Jalapao1.jpg"></div>
+      <div class="col"><img class="centimagem" src="images/Jalapao2.jpg"></div>
+      <div class="col"><img class="centimagem" src="images/Jalapao3.jpg"></div>
+   </div>
+</div>
+<hr class="lughr">
+<div class="row">
+    <div class="col"><h2 class="lugh2">Sobre:<h2><br>
+        <p class="lugp">Destino já conhecido pelos apaixonados pelo ecoturismo e turismo de aventura.
+            Localizada no Estado do Tocantins, a região encanta por suas águas abundantes, chapadões e serras com clima de savana,
+            além da paisagem de cerrado, com direito a dunas alaranjadas, rios encachoeirados, nascentes e impressionantes formações rochosas.
+        </p>
+    </div>
+    <div class="col">
+        <div class="row">
+            <div class="col">
+                <h2 class="lugh2">Vídeo:</h2>    
+                <embed src="https://www.youtube.com/watch?v=EFsD7KYptZA&t=81s" allowfullscreen="true" width="525" height="300">
+                <p class="lugp">Conheça um pouco mais sobre a Jalapão.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <h2 class="lugh1">Planos:</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Plano Melhor avaliação</h5>
+                    <p> 103 Flats </p>
+                    <p> Localização: Palmas, 0.7 km até Jalapão Hotel
+                         </p>
+                    <p class="card-text">R$ 416,00</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Plano Hotel referência</h5>
+                    <p> Jalapão Hotel</p>
+                    <p>Localização: Palmas, 2.2 km até centro da cidade
+                     </p>
+                    <p class="card-text">R$ 360,00</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Plano menor preço</h5>
+                    <p> Hostel Alternativa Palmas/jalapao</p>
+                    <p>Localização: Palmas, 1.0 km até Jalapão Hotel
+                    </p>
+                    <p class="card-text">R$ 152,00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="buttonlug">Continuar</button>  
+</div>
+
+<!-- ========== Conteúdo termina aqui ========== -->
+<?php include 'layout_php/footer.php'?>

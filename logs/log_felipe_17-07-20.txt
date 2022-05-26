@@ -1,0 +1,46 @@
+Dia 17/07/2020
+16:30
+
+Editei o arquivo sobre.php
+<?php include 'layout_php/header.php'?>
+<!-- ========== Conteúdo aqui ========== -->
+<link rel="stylesheet" href="f.css">
+
+<div class="container" >
+<h1 class="sobreh1"> Sobre nós </h1>
+</div>
+<br>
+<hr>
+<br>
+<div class="container sobrep" >
+<p> Seja bem vindo </p>
+<p> Já pensou em fazer uma viagem que jamais esqueceria, o objetivo da 01Walk é propocionar a viajem dos seus sonhos para os lugares mais inesquecíveis do mundo. </p>
+<p> Oferecemos a qualidade máxima para nossos clientes, conforto inigualavel e vistas inesquecíveis. </p>
+<p> Entre nossos pacotes visamos como prioridade a satisfação de nosso cliente.<p> 
+<p> Há 20 anos trabalhando para realizar seu sonho da melhor viagem da sua vida </p>
+</div>
+
+
+<!-- ========== Conteúdo termina aqui ========== -->
+<?php include 'layout_php/footer.php'?>
+
+Perfeito funcionamento
+
+Criei e Editei o arquivo f.css
+.sobreh1
+{
+text-align: center;
+font-size: 50px;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 30px;
+}
+
+.sobrep
+{
+text-align: left;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 10px;
+}
+
+Perfeito funcionamento

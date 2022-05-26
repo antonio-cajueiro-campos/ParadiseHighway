@@ -1,0 +1,23 @@
+.cardt {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: none;
+    color:blue;
+}
+.cardx {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+@font-face {
+    font-family: lobster-regular;
+    src: url('../fonts/LobsterRegular.ttf');
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+
+
+
